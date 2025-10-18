@@ -16,13 +16,16 @@
 	"main": "src/index.js",
 	"scripts": {
 		"biome-format": "biome format --write",
-		"biome-lint": "biome format --write"
+		"biome-lint": "biome format --write",
+		"dev": "next dev --turbopack"
 	},
 	"volta": {
 		"node": "22.20.0"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.2.6",
+		"@types/node": "24.8.1",
+		"@types/react": "19.2.2",
 		"typescript": "5.9.3"
 	},
 	"dependencies": {
