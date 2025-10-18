@@ -1,6 +1,4 @@
-import type { FC, PropsWithChildren } from "react";
-
-const RootLayout: FC<PropsWithChildren<unknown>> = (props) => {
+const RootLayout = (props) => {
 	const { children } = props;
 
 	return (
